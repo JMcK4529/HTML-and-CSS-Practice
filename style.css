@@ -1,0 +1,268 @@
+body {
+    background-color: aliceblue;
+    font-family: trebuchet ms;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    position: fixed;
+    top: 0;
+    height: 6vh;
+    width: 100%;
+    min-height: 26px;
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    float: left;
+    padding: max(14px,1.75vh) max(16px,1.75vh);
+    text-decoration: none;
+    font-size: max(20px,min(2vh,2vw));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a:hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.topnav a.active {
+    background-color: aliceblue;
+    color: black;
+}
+
+.topnav a.active:hover {
+    text-decoration: underline;
+}
+
+#HOME {
+    width: 33%;
+    height: 100%;
+}
+
+#MENU {
+    width: 34%;
+    height: 100%;
+}
+
+#ABOUT {
+    width: 33%;
+    height: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: min(60vh,60vw);
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    height:94vh;
+    width:100vw;
+    margin: 6vh 0 0;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.container h1 {
+    font-size: min(9vh,9vw);
+    color: black;
+    overflow: hidden;
+}
+
+.container h1:nth-child(even) {
+    color: white;
+}
+
+.element {
+    display: block;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: min(10vh,10vw);
+}
+
+.element h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25vh;
+    margin: min(1vh,1vw);
+    padding: 1vh 1vw;
+}
+
+.element:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.element:nth-child(odd) h1 {
+    color: black;
+}
+
+.element:nth-child(odd) p {
+    color: black;
+    font-size: min(3vh,3vw);
+    overflow: hidden;
+    max-height: 90%;
+    margin: 0 2vw 4vh;
+    padding: 0 5vw 2vh;
+}
+
+.element:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+.element:nth-child(even) h1, p {
+    color: white;
+}
+
+.element:nth-child(even) p {
+    color: white;
+    font-size: min(3vh,3vw);
+    overflow: hidden;
+    max-height: 90%;
+    margin: 0 2vw 4vh;
+    padding: 0 5vw 2vh;
+}
+
+footer {
+    height: 30%;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    display: flex;
+    float: left;
+    align-items: top;
+    justify-content: center;
+    overflow: hidden;
+    font-size: min(3vh,3vw);
+    width: 33vw;
+    height: 85%;
+    margin: 7.5% 1vw;
+}
+
+.element table {
+    width: 100%;
+    height: 90%;   
+    font-size: min(3vh,3vw);
+    overflow: hidden;
+    padding: 0 0;
+    margin: 0;
+    table-layout: fixed;
+    border-spacing: min(2px,min(1vh,1vw));
+}
+
+.element table th {
+    padding: min(1vh,1vw);
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.element table tr td:nth-child(odd), .element thead tr th:nth-child(odd) {
+    width: 20%;
+}
+
+.element table tr td:nth-of-type(2), .element thead tr th:nth-child(2) {
+    width: 60%;
+}
+
+.element table td {
+    padding: min(1vh,1vw);
+    background-color: beige;
+    color: dimgrey;
+    text-align: center;
+    overflow: hidden;
+}
+
+.menu {
+    overflow-y: scroll;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 4vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-head {
+    overflow: hidden;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0;
+    position: relative;
+    top: min(2px,min(3vh,3vw));
+}
+
+.menu-head table {
+    height: 100%;
+}
+
+.menu-head table thead {
+    height: 100%;
+}
+
+.menu-head table tr {
+    padding: 0 0 min(1vh,1vw);
+}
+
+.menu-title {
+    height: 15%;
+    top: min(6px,min(3vh,3vw));
+}
+
+.menu-title table {
+    font-size: min(5vh,5vw);
+    font-family: "Brush Script MT", Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.element:nth-child(odd) .menu-head {
+    border-bottom-style:solid;
+    border-color: lightblue;
+    border-width: min(2px,min(1vh,1vw));
+}
+
+.element:nth-child(even) .menu-head {
+    border-bottom-style:solid;
+    border-color: cornflowerblue;
+    border-width: min(2px,min(1vh,1vw));
+}
