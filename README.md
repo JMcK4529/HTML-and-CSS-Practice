@@ -10,6 +10,10 @@ The below image shows a histogram of suggestions appearing in the first 125 resp
 ## How to Use HTML and CSS Practice
 To see the website in its current iteration, prepend "https://htmlpreview.github.io/?" to the full web address of "Home.html". (e.g. "https://htmlpreview.github.io/?https://github.com/JMcK4529/HTML-and-CSS-Practice/blob/main/Source%20Files/Home.html")
 
+## Upcoming...
+My intention is to keep improving this template by implementing suggestions from the above histogram.
+The most popular request among responders to the original post was for easily accessible allergen information. My next aim is to incorporate this information and present it in a way that doesn't require much searching. I could achieve this by adding pop-up text boxes which appear when the user hovers over item names. Including a separate page with a simple list of dishes and their ingredients in alphabetical order would make the information even more accessible and easier to parse in full.
+
 ## Credits
 Author: Joseph McKeown  
 Special thanks to Damian Nowacki for help with pagination during development.
