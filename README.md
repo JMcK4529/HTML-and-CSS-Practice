@@ -1,14 +1,18 @@
 # HTML and CSS Practice
 
 ## Project Description
+After seeing a [social media post](https://at.tumblr.com/homoqueerjewhobbit/and-be-readable-on-mobile-probably-more-important/vx72yiwb5wag) concerning the lack of well-built and maintained websites for restaurants, I decided to refresh my skills with HTML and CSS by constructing an exemplar/template website including the most popular suggestions of commenters on the post. Some of the most popular suggestions were a plain text menu, a list of allergens and well displayed information on prices, opening hours and restaurant location.
 
+The below image shows a histogram of suggestions appearing in the first 125 responses to the social media post.
+
+![Histogram showing suggestions for aspects to be included in a user friendly restaurant website.](Website Suggestion Histogram.png)
 
 ## How to Use HTML and CSS Practice
-
+To see the website in its current iteration, prepend "https://htmlpreview.github.io/?" to the full web address of "Home.html". (e.g. "https://htmlpreview.github.io/?https://github.com/JMcK.../.../Home.html")
 
 ## Credits
 Author: Joseph McKeown  
-Special thanks to Damian Nowacki for help during development.
+Special thanks to Damian Nowacki for help with pagination during development.
 
 ## Licence
 
