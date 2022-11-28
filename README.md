@@ -8,7 +8,7 @@ The below image shows a histogram of suggestions appearing in the first 125 resp
 ![Histogram showing suggestions for aspects to be included in a user friendly restaurant website.](https://github.com/JMcK4529/HTML-and-CSS-Practice/blob/main/Website%20Suggestion%20Histogram.png)
 
 ## How to Use HTML and CSS Practice
-To see the website in its current iteration, prepend "https://htmlpreview.github.io/?" to the full web address of "Home.html". (e.g. "https://htmlpreview.github.io/?https://github.com/JMcK4529/Source%20Files/Home.html")
+To see the website in its current iteration, prepend "https://htmlpreview.github.io/?" to the full web address of "Home.html". (e.g. "https://htmlpreview.github.io/?https://github.com/JMcK4529/HTML-and-CSS-Practice/blob/main/Source%20Files/Home.html")
 
 ## Credits
 Author: Joseph McKeown  
